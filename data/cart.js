@@ -50,9 +50,6 @@ export function removeFromCart(productId) {
     }
   });
   cart = newCart;
-
-  matchingItem.deliveryOptionId = deliveryOptionId
-
   saveToStorage();
 }
 
